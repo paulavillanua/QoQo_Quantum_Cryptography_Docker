@@ -26,5 +26,5 @@ services:
       dockerfile: Dockerfile # nombre del dockerfile
     image: qoqo-quantum-cryptography-docker-image # nombre de la imagen
     volumes:
-      - ./volumen_archivos_docker/:/volumen_archivos_docker/ # mapea tu directorio de trabajo local al contenedor
+      - C:/Users/paula/Desktop/UNI/MASTER/volumen_archivos_docker/:/volumen_archivos_docker/ # mapea tu directorio de trabajo local al contenedor
       
