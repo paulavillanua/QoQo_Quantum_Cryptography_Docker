@@ -21,8 +21,8 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "qoqo-quantum-cryptography-docker",
     "mounts": [
-        "source=${localWorkspaceFolder}/volumen_archivos_docker,target=/volumen_archivos_docker,type=bind"
-      ],
+"source=${localEnv:USERPROFILE}/volumen_archivos_docker,target=/volumen_archivos_docker,type=bind"
+    ],
     "workspaceFolder": "/volumen_archivos_docker", // Carpeta de trabajo en el contenedor tiene que ser un directorio absoluto
     "customizations": {
     "vscode": {
